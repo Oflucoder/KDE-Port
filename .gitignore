@@ -1,0 +1,63 @@
+# Build and Installation Artifacts
+build/
+install/
+deploy/
+deploy-*
+plasma_test/
+
+# CMake Generated Files
+cmake_mocks/
+cmake_temp/
+cmake_error.log
+cmake_temp.log
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+
+# Build Output
+*.o
+*.obj
+*.lib
+*.dll
+*.exe
+*.a
+*.so
+*.dylib
+*.exp
+*.ilk
+*.pdb
+
+# Temporary/Debug Files
+fake_linux/
+trash/
+dll_trash/
+compat/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE and Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vs/
+*.user
+*.suo
+*.sln.DotSettings
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Qt and KDE Generated
+*.qm
+*.qmlc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Worktrees and Temporary Build Areas
+qt6.worktrees/
