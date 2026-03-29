@@ -14,18 +14,32 @@ CMakeCache.txt
 CMakeFiles/
 CMakeUserPresets.json
 
-# Build Output
+# Prerequisites and build intermediates
+*.d
+*.slo
+*.lo
 *.o
 *.obj
-*.lib
-*.dll
-*.exe
-*.a
+*.gch
+*.pch
+*.mod
+*.smod
+
+# Libraries, binaries, debug symbols
 *.so
 *.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
 *.exp
 *.ilk
 *.pdb
+*.dwo
 
 # Temporary/Debug Files
 fake_linux/
