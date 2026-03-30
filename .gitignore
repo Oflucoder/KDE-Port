@@ -53,6 +53,7 @@ compat/
 *.swo
 
 # IDE and Editor Files
+.vscode/
 .vscode/settings.json
 .vscode/launch.json
 .vscode/tasks.json
@@ -60,6 +61,7 @@ compat/
 *.user
 *.suo
 *.sln.DotSettings
+*.code-workspace
 
 # System Files
 .DS_Store
